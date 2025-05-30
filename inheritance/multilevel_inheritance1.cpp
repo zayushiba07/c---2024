@@ -32,7 +32,7 @@ class totalmark:public marks
         }
         void display()
         {
-            cout<<"total marks is"<<totalm<<endl;
+            cout<<"total marks is"<<totalm<<endl    ;
         }
 };
 class result:public totalmark

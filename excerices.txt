@@ -1,0 +1,34 @@
+1)
+Definition:
+Simple Interest is the interest calculated only on the original principal amount
+ for the entire duration of the loan or investment. It does not compound, meaning
+ interest is not earned on previously earned interest.
+
+Formula:
+Simple Interest=P×R×T100
+Simple Interest=100P×R×T​
+
+Where:
+
+    PP = Principal amount (initial sum of money)
+
+    RR = Rate of interest per annum (in %)
+
+    TT = Time (in years)
+
+using multiple inheritance
+
+2) Compound Interest
+
+Definition:
+Compound Interest is the interest calculated on the principal amount and also on the accumulated interest from previous periods. This means interest is earned on interest.
+
+
+
+In the program:
+
+    Class CompoundInterest inherits from Principal and calculates compound interest.
+
+    Class TotalAmount inherits from CompoundInterest and calculates the total amount payable (principal + compound interest).
+
+If you want me to explain inheritance concepts in these programs as well, just ask!
