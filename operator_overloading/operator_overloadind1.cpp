@@ -63,13 +63,14 @@ int main()
     cout << "\nm1 values:\n";
     m1.display();
 
-    cout << "\nUsing operator + overload on m1:" << endl;
-    minPlus m3 = +m1;
-    m3.display();
-
     cout << "\nUsing operator - overload on m1:" << endl;
-    minPlus m4 = -m1;
-    m4.display();
+    m1= -m1;
+    m1.display();
+
+    cout << "\nUsing operator + overload on m1:" << endl;
+    minPlus m2;
+    m2=+m2;
+    m2.display();
 
     return 0;
 }
