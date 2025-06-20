@@ -1,0 +1,3 @@
+my name is ayushiba
+hello c++ , i want to learn about this things
+thank you for learning
